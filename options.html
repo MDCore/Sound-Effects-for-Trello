@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sound Effects for Trello Options</title>
+  <style>
+    body: { padding: 10px; }
+    label {
+      width: 77px;
+      display: inline-block;
+      text-align: right;
+      padding-right: 5px;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 250px;
+    }
+    p {
+      font-style: italic;
+    }
+    #status {
+      width: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <label for="edit_start">Edit Start</label><input type="file" class="audio_select" id="edit_start"><br>
+  <label for="edit_end">Edit End</label><input type="file" class="audio_select"  id="edit_end"><br>
+  <label for="drag_start">Drag Start</label><input type="file" class="audio_select"  id="drag_start"><br>
+  <label for="drag_end">Drag End</label><input type="file" class="audio_select"  id="drag_end"><br>
+  <label for="dialog_open">Dialog Open</label><input type="file" class="audio_select"  id="dialog_open"><br>
+  <label for="dialog_close">Dialog Close</label><input type="file" class="audio_select"  id="dialog_close"><br>
+
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+
+  <div id="soundpreview"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sound Effects for Trello",
+  "description": "Plays sound effects for various Trello actions",
+  "version": "1.0.0",
+
+  "icons": {
+     "16" : "SEFTicon16.png",
+     "48" : "SEFTicon48.png",
+     "128": "SEFTicon128.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+   "content_scripts": [ {
+      "matches": [ "https://trello.com/b/*" ],
+      "js": [ "script.js" ],
+      "run_at": "document_end"
+   } ],
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}
