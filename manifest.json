@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Sound Effects for Trello",
-  "description": "Plays sound effects for various Trello actions",
-  "version": "1.0.0",
+  "description": "Plays sound effects for various Trello actions. This is not an official Trello app!",
+  "version": "1.0.2",
 
   "icons": {
      "16" : "SEFTicon16.png",
